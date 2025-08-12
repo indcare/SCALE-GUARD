@@ -12,14 +12,14 @@
             background-position: center;
             position: relative;
         }
-  .hero-background::before {
+        .hero-background::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: rgba(30, 58, 138, 0.5); /* The overlay is now more transparent */
+            background-color: rgba(30, 58, 138, 0.5);
         }
         .hero-background > * {
             position: relative;
@@ -73,30 +73,190 @@
                 </div>
             </div>
             <div class="md:text-right mt-8 md:mt-0 text-center">
-                <img src="new scake guard.jpg" alt="AMRUT Scaleguard Image 1" class="rounded-lg shadow-xl h-auto mx-auto" style="width: 135%; max-width: 135%;" />
+                <img src="new scake guard.jpg" 
+                     alt="AMRUT Scaleguard Image 1" 
+                     class="rounded-lg shadow-xl h-auto mx-auto cursor-pointer"
+                     style="width: 135%; max-width: 135%;" 
+                     id="scaleGuardImage" />
             </div>
         </div>
     </section>
 
- <section class="py-16 px-6 bg-gray-100">
-    <div class="max-w-6xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-4">See the Difference: Before & After</h2>
-        <p class="text-lg text-gray-600 mb-12">Witness the powerful results of our hard water solution on various surfaces.</p>
-        
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center place-items-center">
-            <div class="bg-white p-4 rounded-lg shadow-md text-center max-w-xs">
-                <img src="kitchen.png" alt="Before and after of a Kitchen Plate" 
-                     class="rounded-md w-full mb-2 mx-auto">
-                <p class="text-sm font-semibold">Kitchen Plate</p>
+    <!-- How It Works Section -->
+    <section class="py-16 px-6 bg-gray-50">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">How AMRUT Scaleguard Works</h2>
+            <p class="text-lg text-gray-700 mb-8">
+                AMRUT Scaleguard uses advanced high-frequency electronic pulses to change the physical 
+                properties of calcium and magnesium minerals present in hard water. These minerals are 
+                normally responsible for scale buildup inside pipes, appliances, and fixtures.
+            </p>
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="font-bold text-lg mb-2">1. Generates High-Frequency Signal</h3>
+                    <p class="text-sm text-gray-600">
+                        The device emits a precisely tuned high-frequency electromagnetic field through cables wrapped around your main water pipe.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="font-bold text-lg mb-2">2. Alters Mineral Structure</h3>
+                    <p class="text-sm text-gray-600">
+                        This signal changes the crystalline structure of calcium and magnesium from a hard, sticky form 
+                        (calcite) into a softer, non-adhering form (aragonite).
+                    </p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="font-bold text-lg mb-2">3. Prevents Scale Formation</h3>
+                    <p class="text-sm text-gray-600">
+                        The transformed minerals remain suspended in the water, passing harmlessly through the system without forming scale deposits.
+                    </p>
+                </div>
+
             </div>
-            <div class="bg-white p-4 rounded-lg shadow-md text-center max-w-xs">
-                <img src="showe head.png" alt="Before and after of a Shower Head" 
-                     class="rounded-md w-full mb-2 mx-auto">
-                <p class="text-sm font-semibold">Shower Head</p>
+            <p class="text-center mt-8 text-gray-700 text-sm italic">
+                The process is chemical-free, maintenance-free, and preserves beneficial minerals in your water.
+            </p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- How to Use Section -->
+    <section class="py-16 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">How to Use AMRUT Scaleguard</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                
+                <!-- Step 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-blue-700 text-4xl font-extrabold mb-4">1</div>
+                    <h3 class="font-bold text-lg mb-2">Choose the Installation Point</h3>
+                    <p class="text-sm text-gray-600">Select the main water supply line where you want to install the device, ensuring it treats all water entering the building.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-blue-700 text-4xl font-extrabold mb-4">2</div>
+                    <h3 class="font-bold text-lg mb-2">Mount the Device</h3>
+                    <p class="text-sm text-gray-600">Securely mount the Scaleguard control system on the socket near the pipe. Use the included mounting hardware for a firm, stable setup.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-blue-700 text-4xl font-extrabold mb-4">3</div>
+                    <h3 class="font-bold text-lg mb-2">Wrap and Connect</h3>
+                    <p class="text-sm text-gray-600">Wrap the signal cables around the pipe as instructed, plug in the device to a power outlet, and turn it on. Your water is now protected.</p>
+                </div>
+
+            </div>
+            <p class="text-center mt-8 text-gray-700 text-sm italic">No plumbing modifications required.</p>
+        </div>
+    </section>
+
+
+    <!-- Applications Section -->
+    <section class="py-16 px-6 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Applications of AMRUT Scaleguard</h2>
+            <p class="text-lg text-gray-700 mb-12">
+                AMRUT Scaleguard is versatile and effective for a wide range of settings, ensuring scale-free water wherever it’s needed.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+                    <img src="resident.jpg" alt="Residential Use" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="font-bold text-lg mb-2">Homes & Apartments</h3>
+                    <p class="text-sm text-gray-600">Protects household appliances, showers, and plumbing systems from scale buildup.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+                    <img src="hoes.jpg" alt="Hotels" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="font-bold text-lg mb-2">Hotels & Resorts</h3>
+                    <p class="text-sm text-gray-600">Keeps bathrooms, kitchens, and laundry systems running efficiently without scale deposits.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+                    <img src="industral.jpg" alt="Industrial" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="font-bold text-lg mb-2">Industrial Facilities</h3>
+                    <p class="text-sm text-gray-600">Prevents scaling in boilers, cooling towers, and water heating systems.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+                    <img src="hosi.jpg" alt="Hospitals" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="font-bold text-lg mb-2">Hospitals & Clinics</h3>
+                    <p class="text-sm text-gray-600">Maintains clean and efficient water systems in sensitive healthcare environments.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+                    <img src="restraurants.jpg" alt="Restaurants" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="font-bold text-lg mb-2">Restaurants & Cafés</h3>
+                    <p class="text-sm text-gray-600">Protects coffee machines, dishwashers, and cooking equipment from scale damage.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+                    <img src="agriculure.jpg" alt="Agriculture" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="font-bold text-lg mb-2">Agriculture</h3>
+                    <p class="text-sm text-gray-600">Prevents scaling in irrigation systems, ensuring smooth water flow to crops.</p>
+                </div>
+
             </div>
         </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 hidden items-center justify-center z-50">
+        <span id="closeModal" class="absolute top-6 right-8 text-white text-4xl cursor-pointer">&times;</span>
+        <img id="modalImage" class="max-w-full max-h-full rounded-lg shadow-lg" />
     </div>
-</section>
+
+    <section class="py-16 px-6 bg-gray-100">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">See the Difference: Before & After</h2>
+            <p class="text-lg text-gray-600 mb-12">Witness the powerful results of our hard water solution on various surfaces.</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center place-items-center">
+                <div class="bg-white p-4 rounded-lg shadow-md text-center max-w-xs">
+                    <img src="kitchen.png" alt="Before and after of a Kitchen Plate" 
+                         class="rounded-md w-full mb-2 mx-auto">
+                    <p class="text-sm font-semibold">Kitchen Plate</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md text-center max-w-xs">
+                    <img src="showe head.png" alt="Before and after of a Shower Head" 
+                         class="rounded-md w-full mb-2 mx-auto">
+                    <p class="text-sm font-semibold">Shower Head</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="py-20 px-6 text-center bg-blue-900 text-white shadow-inner">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to solve your hard water problems?</h2>
@@ -116,5 +276,30 @@
             <a href="https://www.amrutfiltration.com" class="text-xs hover:underline mt-1 inline-block">www.amrutfiltration.com</a>
         </div>
     </footer>
+
+    <script>
+        const image = document.getElementById("scaleGuardImage");
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        const closeBtn = document.getElementById("closeModal");
+
+        image.addEventListener("click", () => {
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+            modalImg.src = image.src;
+        });
+
+        closeBtn.addEventListener("click", () => {
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        });
+
+        modal.addEventListener("click", (e) => {
+            if (e.target === modal) {
+                modal.classList.add("hidden");
+                modal.classList.remove("flex");
+            }
+        });
+    </script>
 </body>
 </html>
